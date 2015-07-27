@@ -1,0 +1,19 @@
+{
+  "name": "img",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {
+    "incident": {
+      "type": "belongsTo",
+      "model": "incident",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": []
+}

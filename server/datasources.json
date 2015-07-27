@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "demo": {
+    "name": "demo",
+    "connector": "mongodb"
+  },
+  "myfiles": {
+    "name": "myfiles",
+    "connector": "loopback-component-storage",
+    "provider": "filesystem",
+    "root": "./tmp"
+  }
+}
